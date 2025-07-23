@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -59,7 +58,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
       <Hero />
       
       {/* Services Section */}
