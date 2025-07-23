@@ -106,7 +106,7 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredBuilds.map((build, index) => (
-              <Card key={index} className="group overflow-hidden hover:shadow-elegant transition-all duration-300">
+              <Card key={index} className="group overflow-hidden hover:shadow-elegant hover:-translate-y-2 transition-all duration-500 hover:shadow-glow">
                 <div className="relative overflow-hidden">
                   <img
                     src={build.image}
